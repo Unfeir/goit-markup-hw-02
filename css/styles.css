@@ -1,0 +1,176 @@
+/* колір Заголовків #212121; */
+/* колір тексту #757575; */
+/* додатковий колір тексту #FFFFFF; */
+/* колір акценту #2196F3; */
+
+/* колір бекграунду #FFFFFF; */
+/* додатковий колір бекграунду #F5F4FA; */
+/* колір  хедер/футер #2F303A; */
+
+:root {
+  --title-text-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --white-text-color: #ffffff;
+
+  --background-color: #ffffff;
+  --background-grey-color: #f5f4fa;
+  --background-dark-color: #2f303a;
+}
+
+.list {
+  list-style: none;
+}
+
+.ref {
+  text-decoration: none;
+}
+
+body {
+  color: var(--text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+/* -------Common------- */
+
+.accent {
+  color: var(--accent-color);
+}
+
+.title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+/* -------Header------- */
+
+.header-logo {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+}
+
+.site-nav .link,
+.address-link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .current-link {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
+
+/* -------Footer------- */
+
+footer {
+  background-color: var(--background-dark-color);
+}
+
+.footer-logo {
+  color: var(--white-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+}
+
+.address {
+  color: var(--white-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.address .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address .link:hover,
+.address .link:focus {
+    color: var(--accent-color);
+  }
+
+/* -------Main Index--------- */
+
+.hero {
+  color: var(--white-text-color);
+  background-color: var(--background-dark-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.hero .button {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.features .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: left;
+}
+
+.team h3 {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* -------Main Portfolio--------- */
+.button {
+  color: var(--title-text-color);
+  background-color: var(--background-grey-color);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.button:hover {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.examples .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
